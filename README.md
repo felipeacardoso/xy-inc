@@ -15,13 +15,13 @@ Os seguintes pacotes devem estar instalados e configurados na máquina local:
 Configuração do banco de dados
 -------------------------------------------------------
 * No aplicativo MySQL Workbench, conecte na base de dados local, crie um novo schema chamado 'xyincdb' e defina-o como schema default.
-* Execute o arquivo 'xyinc-pois.sql' para criar a tabela de POIs e popular com os pontos de interesse de exemplo.
+* Execute o arquivo '[xyinc-pois.sql](https://github.com/felipeacardoso/xy-inc/blob/master/scripts/xyinc-pois.sql)' para criar a tabela de POIs e popular com os pontos de interesse de exemplo.
  
 Configuração do projeto
 -------------------------------------------------------
 * Faça o clone do repositório ou o download dos arquivos do projeto.
 * No Eclipse, importe o projeto Maven 'restapi'.
-* Altere o arquivo 'hibernate.cfg.xml' com as informações de conexão com o banco de dados.
+* Altere o arquivo '[hibernate.cfg.xml](https://github.com/felipeacardoso/xy-inc/blob/master/src/restapi/src/main/resources/hibernate.cfg.xml)' com as informações de conexão com o banco de dados.
 * Ainda no Eclipse, configure o servidor Tomcat para executar o módulo 'restapi'.
 * Execute o Maven install para baixar as dependências e gerar o pacote, e em seguida, inicie o servidor Tomcat.
  
